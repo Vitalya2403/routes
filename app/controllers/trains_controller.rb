@@ -45,6 +45,4 @@ class TrainsController < ApplicationController
      params.require(:train).permit(:number, :current_station_id)
    end
 
-    
-    
 end
